@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/vendor.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Gulf Shores Wheels</title>
+</head>
+<body>
+    <header>
+        <h1>Gulf Shores Wheels Car Finder</h1>
+    </header>
+    <form id="car-selection-form">
+        <select id="car-selection-age">
+            <option value="">Select Age</option>
+            <option value="new">New</option>
+            <option value="used">Used</option>
+        </select>
+        <select id="car-selection-type">
+            <option value="">Select Type</option>
+            <option value="car">Car</option>
+            <option value="motorcycle">Motorcyle</option>
+            <option value="truck">Truck</option>
+        </select>
+        <button type="submit" id="btn-submit">Find Cars</button>
+    </form>
+    <br>
+    <div id="car-display">
+        <ol id="car-list"></ol>
+    </div>
+    <br>
+    <div id="favorites">
+        <ol id="favorites-list"></ol>
+    </div>
+    
+</body>
+</html>
